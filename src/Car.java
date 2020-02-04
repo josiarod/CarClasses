@@ -27,6 +27,10 @@ public void speed(){
     System.out.println("The " + this.color + " " +this.make + " is going "+ this.speed + " hpm");
 }
 
+public String description(){
+    return "This is a " + this.color +"  "+ this.getMake() + " and is going at "+this.getSpeed() + " hpm";
+}
+
 
 public String getColor(){
     return this.color;
